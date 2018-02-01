@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<image class='item-image' bindtap="watchVideo" mode='widthFix'  src='https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/lizhi.jpg'></image>
+
+<video class='videocontent' src='http://1256025598.vod2.myqcloud.com/bfa46dd2vodtransgzp1256025598/d5bab9d14564972819228671560/v.f20.mp4'></video>
+<text>
+  科技改变生活
+</text>

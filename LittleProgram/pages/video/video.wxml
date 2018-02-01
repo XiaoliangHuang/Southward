@@ -1,0 +1,5 @@
+<!--pages/video/video.wxml-->
+
+<video class='videocontent' poster= 'https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/lizhi.jpg' src='https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/video/%E6%9D%8E%E5%BF%97%20-%20%E5%85%B3%E4%BA%8E%E9%83%91%E5%B7%9E%E7%9A%84%E8%AE%B0%E5%BF%86.mp4'></video>
+
+<text>你好， 郑州</text>

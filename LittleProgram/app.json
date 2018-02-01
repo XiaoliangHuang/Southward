@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/members/member",
+    "pages/about/about",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南辕出品",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "南辕出品",
+        "pagePath": "pages/index/index",
+        "iconPath": "img/icon/product.png",
+        "selectedIconPath": "img/icon/product.png"
+      },
+      {
+        "text": "关于南辕",
+        "pagePath": "pages/about/about",
+        "iconPath": "img/icon/about.png",
+        "selectedIconPath": "img/icon/about.png"
+      }
+    ]
+  }
+}

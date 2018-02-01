@@ -1,0 +1,9 @@
+/**index.wxss**/
+.videocontent {
+  width: 100%;
+  align-content: center;
+}
+
+.item-image {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+<!--about.wxml-->
+
+<view></view>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{movies}}" wx:for-index="index">    
+    <swiper-item>    
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>
+
+<text class='intro'>
+南辕映画（上海南辕广告有限公司）是一个以新锐创作理念和独到创意为主要特点的影视工作室，创办于2012年，目前有上海和广州两个分部。
+
+“南辕”取意于“向南”的意思，中国的本土影视，基本上都是北派文化主导，“南辕”即要强调“南方”的立场，以更立足当下的姿态，拍摄一系列视角新锐、直面现实的广告和影视作品，愿以一种憨直的姿态，坚持做特立独行之事。
+
+“一本万利”是南辕旗下的影视制作品牌“猿影业”的趣名，既是一种自嘲的小人物的态度，同时也是寓意一种各方多赢的理想效果。团队成员通常会以此作为口头禅互相激励，以“一本万利”的名头，做“吃力不讨好”之事。这既是我们的企业文化，也是我们独特的创作态度。
+</text>
+
+<view style=''>
+  <image  class='logo' src='/img/logo.png' mode='aspectFit'></image>
+</view>
+

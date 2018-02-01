@@ -1,0 +1,36 @@
+/* about.wxss */
+.logo {
+  width:300rpx;
+}
+
+.intro {
+  text-align: left;
+  font-family: "微软雅黑";
+  font-size: 30rpx;
+}
+
+.aboutus {
+  text-align: right;
+  font-family: 'Arial Narrow Bold';
+  font-size: 50rpx;
+  margin-bottom: 100 rpx;
+  text-shadow: h-shadow v-shadow blur color;
+}
+
+.line{
+width:20%;
+height:2rpx;
+background:#aaa;
+color: yellowgreen
+}
+
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+  margin-top: 50rpx;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
