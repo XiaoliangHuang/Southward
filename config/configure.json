@@ -1,0 +1,18 @@
+{
+    "updated":"2018-02-04",
+    "count": 3,
+    "videos":[
+        {
+            "posterUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/poster/1-huashao-web.jpg",
+            "videoUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/video/huashao-web.mp4"
+        },
+        {
+            "posterUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/poster/2-818-web.jpg",
+            "videoUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/video/2-818-web.mp4"
+        },
+        {
+            "posterUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/poster/3-yingpaitaoci--web.jpg",
+            "videoUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/video/3-yingpaitaoci-web.mp4"
+        }
+    ]
+}

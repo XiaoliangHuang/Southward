@@ -1,6 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
+    var app = this;
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -33,7 +34,10 @@ App({
       }
     })
   },
+
   globalData: {
-    userInfo: null
-  }
+    userInfo: null,
+    configFile: "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/config/configure.json",
+    videos:null
+  },
 })

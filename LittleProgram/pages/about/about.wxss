@@ -4,9 +4,17 @@
 }
 
 .intro {
+  display: flex;
+  margin-left: 10%;
   text-align: left;
   font-family: "微软雅黑";
   font-size: 30rpx;
+}
+
+.intro-container{
+  width: 90%;
+  position:relative;
+
 }
 
 .aboutus {

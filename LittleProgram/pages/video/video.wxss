@@ -2,4 +2,29 @@
 .videocontent {
   width: 100%;
   align-content: center;
+  margin-top: 30rpx;
+}
+
+.title-container{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 60rpx;
+  margin-top: 30rpx;
+}
+
+.title {
+  display: flex;
+  justify-content:center;
+  font-family: 'Arial Narrow Bold';
+  font-size: 40rpx;
+}
+
+.description{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  text-align: left;
+  font-family: 'Arial Narrow';
+  font-size: 30rpx;
+  color: gray;
 }
