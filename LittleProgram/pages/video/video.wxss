@@ -20,11 +20,12 @@
 }
 
 .description{
-  display: flex;
   width: 90%;
   margin-left: 5%;
   text-align: left;
   font-family: 'Arial Narrow';
   font-size: 30rpx;
   color: gray;
+  display: flex;
+  margin-bottom: 150rpx;
 }
