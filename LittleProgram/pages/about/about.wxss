@@ -1,19 +1,17 @@
 /* about.wxss */
-.logo {
-  width:300rpx;
-}
-
 .intro {
   display: flex;
-  margin-left: 10%;
   text-align: left;
   font-family: "微软雅黑";
   font-size: 30rpx;
+  justify-content: center;
 }
 
-.intro-container{
+.text-container{
+  margin-left: 5%;
   width: 90%;
-  position:relative;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -25,20 +23,112 @@
   text-shadow: h-shadow v-shadow blur color;
 }
 
-.line{
-width:20%;
-height:2rpx;
-background:#aaa;
-color: yellowgreen
-}
-
 /**index.wxss**/
 .swiper {
   height: 400rpx;
   width: 100%;
   margin-top: 50rpx;
 }
-.swiper image {
+.swiper-image {
   height: 100%;
   width: 100%;
+}
+.center-view{
+  margin-top: 30rpx;
+  display: flex;
+  justify-content:center;
+}
+
+.scroll-box{
+  width: 90%;
+  align-self: center;
+  height: 400rpx;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.scroll-view-x{
+  width: auto;
+  overflow:hidden;
+}
+
+.item-list{
+  width: 240rpx;
+  height: auto;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.member-img{
+  height: 270rpx;
+  width: 230rpx;
+  display: flex;
+}
+
+.member-name{
+  text-align: center;
+  justify-content: center;
+  font-family: 'Arial Narrow Bold';
+  font-size: 30rpx;
+  color: black;
+  display: flex;
+}
+
+.member-title{
+  text-align: center;
+  justify-content: center;
+  font-family: 'Arial Narrow Bold';
+  font-size: 25rpx;
+  color: gray;
+  display: flex;
+  margin-bottom: 150rpx;
+}
+
+
+.section-intro{
+  margin-left: 5%;
+  text-align: left;
+  font-family: '微软雅黑';
+  font-weight: bold;
+  font-size: 36rpx;
+  color: black;
+  display: flex;
+  margin-top: 50rpx;
+}
+
+.slogan{
+  display: flex;
+  text-align: left;
+  font-family: "微软雅黑";
+  font-size: 30rpx;
+}
+
+.signature{
+  width: 30%;
+  float: right;
+  margin-top: 100rpx;
+  margin-right: 5%;
+}
+
+.logo {
+  height: 300rpx;
+  width:300rpx;
+  float: right;
+}
+
+.contact{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-bottom: 100rpx;
+}
+
+.contact-info{
+  width: 100%;
+  margin-right: 7%;
+  font-size: 26rpx;
+  color: gray;
+  text-align: right;
 }

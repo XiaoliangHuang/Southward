@@ -37,7 +37,8 @@ App({
 
   globalData: {
     userInfo: null,
-    configFile: "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/config/configure.json",
+    videoConfig: "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/config/videoConfig.json",
+    teamConfig: "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/config/teamConfig.json",
     videos:[
         {
           "posterUrl": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/poster/1-huashao-web.jpg",

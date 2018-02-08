@@ -1,0 +1,41 @@
+﻿{
+    "updated":"2018-02-7",
+    "count": 7,
+    "team":[
+	  { 
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/6.jpg",
+        "title": "导演",
+        "name": "沈玎"
+      },
+	  {
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/1.jpg",
+        "title": "编剧",
+        "name": "龙海珊"
+      },
+      {
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/4.jpg",
+        "title": "后期",
+        "name": "傅宗盛"
+      },
+      {
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/2.jpg",
+        "title": "制片",
+        "name": "彭群喜"
+      },
+      { 
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/3.jpg",
+        "title": "摄影",
+        "name": "唐昊"
+      },
+      {
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/5.jpg",
+        "title": "摄影",
+        "name": "熊睿"
+      },
+	  {
+        "img": "https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/team/7.jpg",
+        "title": "生活制片",
+        "name": "柊颜"
+      }
+    ]
+}

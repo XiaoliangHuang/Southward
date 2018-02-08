@@ -17,3 +17,19 @@ const formatNumber = n => {
 module.exports = {
   formatTime: formatTime
 }
+
+
+module.exports.loadConfig = function(configureUrl, successCallback){
+  var loadedData = null;
+  wx.request({
+    url: configureUrl,
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    success: successCallback,
+    fail: function(res){
+      console.log("Loaded Data failed from ", configureUrl);
+      console.log("response: ", res);
+    }
+  });
+}

@@ -1,35 +1,6 @@
-<!--index.wxml-->
 
-<!--
-<view>
-  <image class='item-image' bindtap="watchVideo(1)" mode='widthFix'  src='https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/lizhi.jpg'>
-  </image>
-</view>
-
-<image class='item-image' bindtap="watchVideo(2)" mode='widthFix'  src='https://shysgg-1255981100.cos.ap-shanghai.myqcloud.com/image/project%20image/huashao-web.jpg'>
-</image>
--->
-
-<block wx:for="{{videos}}">
-      <image class='item-image' mode='widthFix' data-index="{{index}}" bindtap="watchVideo"  src='{{item.posterUrl}}'>
+<block wx:for="{{videos}}" wx:key="{{index}}">
+      <image class='item-image' mode='widthFix' data-index="{{index}}"bindtap="watchVideo"  src='{{item.posterUrl}}'>
       </image>
 
 </block>
-
-<!--
-<block wx:for="{{videos}}">
-  <template is="videoItem" data="{{item}}"></template>
-</block>
--->
-<!--
-  index: int
-  posterUrl: string
--->
-
-<!--
-<template name="videoItem">
-  <image class='item-image' bindtap="watchVideo({{index}})" mode='widthFix'  src='{{posterUrl}}'>
-</image>
-</template>
-
--->

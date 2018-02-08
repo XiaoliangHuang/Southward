@@ -2,14 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/members/member",
     "pages/about/about",
     "pages/video/video"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "南辕出品",
+    "navigationBarTitleText": "南辕映画",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
@@ -20,13 +19,13 @@
     "backgroundColor": "#f9f9f9",
     "list": [
       {
-        "text": "南辕出品",
+        "text": "精选",
         "pagePath": "pages/index/index",
         "iconPath": "img/icon/product.png",
         "selectedIconPath": "img/icon/product.png"
       },
       {
-        "text": "关于南辕",
+        "text": "幕后",
         "pagePath": "pages/about/about",
         "iconPath": "img/icon/about.png",
         "selectedIconPath": "img/icon/about.png"

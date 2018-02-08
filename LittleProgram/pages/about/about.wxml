@@ -1,16 +1,6 @@
 <!--about.wxml-->
 
-<view></view>
-
-<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
-  <block wx:for="{{movies}}" wx:for-index="index">    
-    <swiper-item>    
-      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
-    </swiper-item>    
-  </block>    
-</swiper>
-
-<view class='intro-container'>
+<view class='text-container'>
   <text class='intro'>
   南辕映画（上海南辕广告有限公司）是一个以新锐创作理念和独到创意为主要特点的影视工作室，创办于2012年，目前有上海和广州两个分部。
 
@@ -20,7 +10,33 @@
   </text>
 </view>
 
-<view style=''>
-  <image  class='logo' src='/img/logo.png' mode='aspectFit'></image>
+<view class='section-intro'>团队成员</view>
+
+<view class='center-view'>
+  <view class="scroll-box"> 
+    <scroll-view class="scroll-view-x" scroll-x >
+      <view class="item-list" wx:for="{{team}}" wx:key="index">
+        <image src="{{item.img}}" class="member-img" mode="aspectFill"></image>
+        <view class="member-name">{{item.name}}</view>
+        <view class="member-title">{{item.title}}</view>
+      </view>
+    </scroll-view>
+  </view>
 </view>
 
+<view class='text-container'>
+  <text class='slogan'>
+  “年轻过的，现在还童心未泯；还未老的，却已经少年老成”。总之就是，这帮人都很厉害，风吹浪打，一试便知！
+  </text>
+</view>
+
+<view class='signature'>
+  <image  class='logo' src='/img/logo.png' mode='widthFix'></image>
+</view>
+
+<view class='contact'>
+  <view class="contact-info"><text selectable='true'>上海市静安区灵石路891号云仓文化创意园</text></view>
+  <view class="contact-info"><text selectable='true'>Email: sharpdinga@hotmail.com</text></view>
+  <view class="contact-info"><text decode='emsp'selectable='true'>Tel: 18602069256 (沈&emsp;玎)</text></view>
+  <view class="contact-info"><text selectable='true'>18502128700 (陈璇立)</text></view>
+</view>
